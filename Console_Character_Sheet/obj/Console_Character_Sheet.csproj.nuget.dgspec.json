@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\Side Projects\\Character_Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj": {}
+    "C:\\Users\\Student\\Desktop\\My SideProjects\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\Side Projects\\Character_Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj": {
+    "C:\\Users\\Student\\Desktop\\My SideProjects\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\Side Projects\\Character_Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\My SideProjects\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
         "projectName": "Console_Character_Sheet",
-        "projectPath": "C:\\Users\\Student\\Desktop\\Side Projects\\Character_Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\My SideProjects\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\Side Projects\\Character_Sheet\\Console_Character_Sheet\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\My SideProjects\\Character-Sheet\\Console_Character_Sheet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
