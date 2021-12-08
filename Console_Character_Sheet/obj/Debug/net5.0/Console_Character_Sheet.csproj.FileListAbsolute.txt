@@ -1,0 +1,16 @@
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.exe
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.deps.json
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.runtimeconfig.json
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.runtimeconfig.dev.json
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.dll
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\ref\Console_Character_Sheet.dll
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.pdb
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.AssemblyInfo.cs
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.dll
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\ref\Console_Character_Sheet.dll
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.pdb
+C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.genruntimeconfig.cache
