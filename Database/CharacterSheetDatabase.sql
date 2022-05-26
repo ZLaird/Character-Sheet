@@ -28,14 +28,34 @@ CREATE TABLE UserProfile (
 	CONSTRAINT [PK_UserProfile] PRIMARY KEY (UserProfileId)
 )
 
-CREATE TABLE PlayerCharacter (
-	PlayerCharacterId int IDENTITY(1,1) NOT NULL,
-	CharacterName varchar(50) NOT NULL
+CREATE TABLE Race (
+	RaceId int IDENTITY(1,1) NOT NULL,
+	RaceName varchar(50) NOT NULL
 
-	CONSTRAINT [PK_PlayerCharacter] PRIMARY KEY (PlayerCharacterId)
+	CONSTRAINT [PK_Race] PRIMARY KEY (RaceId)
 )
 
-CREATE TABLE UserPlayerCharacter ( --Junction
+CREATE TABLE Class (
+	ClassId int IDENTITY(1,1) NOT NULL,
+	ClassName varchar(50) NOT NULL
+
+	CONSTRAINT [PK_Class] PRIMARY KEY (ClassId)
+)
+
+CREATE TABLE PlayerCharacter (
+	PlayerCharacterId int IDENTITY(1,1) NOT NULL,
+	CharacterName varchar(50) NOT NULL,
+	RaceId int NOT NULL,
+	ClassId int NOT NULL,
+	MaxHitPoints int NOT NULL,
+	CurrentHitPoints int NOT NULL
+
+	CONSTRAINT [PK_PlayerCharacter] PRIMARY KEY (PlayerCharacterId),
+	CONSTRAINT [FK_PlayerCharacter_Race] FOREIGN KEY (RaceId) REFERENCES [Race] (RaceId),
+	CONSTRAINT [FK_PlayerCharacter_Class] FOREIGN KEY (ClassId) REFERENCES [Class] (ClassId)
+)
+
+CREATE TABLE UserPlayerCharacter ( --Junction, may not need this table going forward if characters cannot be traded between users
 	UserProfileId int NOT NULL,
 	PlayerCharacterId int NOT NULL
 
