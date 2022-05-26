@@ -14,3 +14,26 @@ C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\o
 C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\ref\Console_Character_Sheet.dll
 C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.pdb
 C:\Users\Student\Desktop\Side Projects\Character_Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.genruntimeconfig.cache
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.exe
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.deps.json
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.runtimeconfig.json
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.runtimeconfig.dev.json
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\ref\Console_Character_Sheet.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\Console_Character_Sheet.pdb
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.csproj.AssemblyReference.cache
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.AssemblyInfoInputs.cache
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.AssemblyInfo.cs
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.csproj.CoreCompileInputs.cache
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.csproj.CopyComplete
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\ref\Console_Character_Sheet.dll
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.pdb
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\Console_Character_Sheet.genruntimeconfig.cache
