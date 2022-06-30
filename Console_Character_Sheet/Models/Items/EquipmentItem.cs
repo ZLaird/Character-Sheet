@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Character_Sheet.Models
+namespace CharacterSheet.Models.Items
 {
-    class Item
+    public abstract class EquipmentItem : IEquipmentItem
     {
     }
 }

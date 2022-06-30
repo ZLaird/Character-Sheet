@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CharacterSheet.Models;
 
-namespace Console_Character_Sheet.DAO
+namespace CharacterSheet.DAO
 {
     public interface ICharacterDao
     {

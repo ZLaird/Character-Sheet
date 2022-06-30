@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Character_Sheet.Character_Classes
+namespace CharacterSheet.Models.CharacterClasses
 {
     public class Fighter : Class
     {

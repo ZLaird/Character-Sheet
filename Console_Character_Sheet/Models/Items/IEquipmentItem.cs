@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Character_Sheet.Models.Items
+namespace CharacterSheet.Models.Items
 {
-    interface Interface1
+    public interface IEquipmentItem
     {
+
     }
 }

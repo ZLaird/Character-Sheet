@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Console_Character_Sheet.Character_Classes;
-using Console_Character_Sheet.Character_Races;
+using CharacterSheet.Models.CharacterClasses;
+using CharacterSheet.Models.CharacterRaces;
 
-namespace Console_Character_Sheet
+namespace CharacterSheet.Models
 {
     public class Menu
     {

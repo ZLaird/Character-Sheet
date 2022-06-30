@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using CharacterSheet.Models;
 
-namespace Console_Character_Sheet.DAO
+namespace CharacterSheet.DAO
 {
     public class CharacterSqlDao : ICharacterDao
     {

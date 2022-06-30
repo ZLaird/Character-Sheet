@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Character_Sheet.Character_Classes
+namespace CharacterSheet.Models.CharacterClasses
 {
     public abstract class Class : IClass
     {
@@ -20,7 +20,7 @@ namespace Console_Character_Sheet.Character_Classes
         //maybe split proficiencies into individual categories
         //need to prompt for and get bonus skills
 
-        //public abstract string Equipment { get; set; } WIP
+        public abstract string Equipment { get; set; } //WIP
         //prompt for starting gear
         //need to check for proficiencies
 
