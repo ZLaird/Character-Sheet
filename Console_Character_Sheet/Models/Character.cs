@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Console_Character_Sheet.Character_Classes;
-using Console_Character_Sheet.Character_Races;
-using Console_Character_Sheet.Character_RpTraits;
+using CharacterSheet.Models.CharacterClasses;
+using CharacterSheet.Models.CharacterRaces;
+//using CharacterSheet.Models.CharacterRpTraits;
 
-namespace Console_Character_Sheet
+namespace CharacterSheet.Models
 {
     public class Character
     {
@@ -81,17 +81,17 @@ namespace Console_Character_Sheet
         /// <summary>
         /// PC's physical characteristics that are purely roleplay oriented.
         /// </summary>
-        public Appearance Appearance { get; set; } //WIP
+        //public Appearance Appearance { get; set; } //WIP
 
         /// <summary>
         /// PC's personality traits, beliefs, and worldview.
         /// </summary>
-        public PersonalityAndBeliefs Personality { get; set; } //WIP
+        //public PersonalityAndBeliefs Personality { get; set; } //WIP
 
         /// <summary>
         /// PC's history prior to the current adventure.
         /// </summary>
-        public Backstory Backstory { get; set; } //WIP
+        //public Backstory Backstory { get; set; } //WIP
 
         //methods
 

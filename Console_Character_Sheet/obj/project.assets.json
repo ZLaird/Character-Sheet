@@ -459,9 +459,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
-      "projectName": "Console_Character_Sheet",
-      "projectPath": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
+      "projectUniqueName": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\CharacterSheet.csproj",
+      "projectName": "CharacterSheet",
+      "projectPath": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\CharacterSheet.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
       "outputPath": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\obj\\",
       "projectStyle": "PackageReference",

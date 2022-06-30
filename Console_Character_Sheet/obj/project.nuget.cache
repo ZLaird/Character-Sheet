@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZtTVfQLhdV6Wt1A0qkziPvkgWphEGkO9/xX5D533LUxUoqwd/PBET09bbkpbFBV+bDvyxgX3FgfxCwL0PTIIA==",
+  "dgSpecHash": "FeqEQNc7TOEwgyE/ezTz1SUfQvVe/QMNeQBSq//tDkbXIfyCcDdIU5oF8sGZGKdGLIg+Xv81wA0seV13lN4BQA==",
   "success": true,
-  "projectFilePath": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\Console_Character_Sheet.csproj",
+  "projectFilePath": "E:\\Git Repositiories\\D&D Character Sheet\\Character-Sheet\\Console_Character_Sheet\\CharacterSheet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

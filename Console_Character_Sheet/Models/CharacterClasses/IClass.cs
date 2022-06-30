@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Character_Sheet.Character_Classes
+namespace CharacterSheet.Models.CharacterClasses
 {
     public interface IClass
     {
@@ -12,7 +12,7 @@ namespace Console_Character_Sheet.Character_Classes
         public string AsciiArt { get; set; }
         public int HitPoints { get; set; }
         public List<string> Proficiencies { get; set; }
-        //public List< Equipment { get; set; } WIP
+        public List< Equipment { get; set; } //need to make item class
 
         public int hitPointsOnLevelUp();
     }
