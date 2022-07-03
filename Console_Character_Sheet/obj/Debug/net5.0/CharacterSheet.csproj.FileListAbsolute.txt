@@ -1,0 +1,5 @@
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\CharacterSheet.csproj.AssemblyReference.cache
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\CharacterSheet.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\CharacterSheet.AssemblyInfoInputs.cache
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\CharacterSheet.AssemblyInfo.cs
+E:\Git Repositiories\D&D Character Sheet\Character-Sheet\Console_Character_Sheet\obj\Debug\net5.0\CharacterSheet.csproj.CoreCompileInputs.cache

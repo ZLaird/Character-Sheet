@@ -8,12 +8,15 @@ namespace CharacterSheet.Models.CharacterClasses
 {
     public interface IClass
     {
+        #region Fields
         public string Name { get; }
-        public string AsciiArt { get; set; }
         public int HitPoints { get; set; }
         public List<string> Proficiencies { get; set; }
-        public List< Equipment { get; set; } //need to make item class
+        //public List< Equipment { get; set; } //need to make item class
+        #endregion
 
+        #region Methods
         public int hitPointsOnLevelUp();
+        #endregion
     }
 }
