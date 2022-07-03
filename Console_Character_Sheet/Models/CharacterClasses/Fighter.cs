@@ -10,16 +10,16 @@ namespace CharacterSheet.Models.CharacterClasses
     {
         #region Fields
         public override string Name { get; }
-        public override int HitPoints { get; set; }
-        public override List<string> Proficiencies { get; set; }
+        public override int BaseHitPoints { get; set; }
+        public override List<string> StartingProficiencies { get; set; }
         #endregion
 
         #region Constructors
         public Fighter()
         {
             Name = "Fighter";
-            HitPoints = 10;
-            Proficiencies = new List<string> { "Light Armor", "Medium Armor", "Heavy Armor", "Shields", "simple Weapons", "martial Weapons" };
+            BaseHitPoints = 10;
+            StartingProficiencies = new List<string> { "Light Armor", "Medium Armor", "Heavy Armor", "Shields", "Simple Weapons", "Martial Weapons" };
         }
         #endregion
 

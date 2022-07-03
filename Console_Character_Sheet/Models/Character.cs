@@ -5,12 +5,58 @@ using System.Text;
 using System.Threading.Tasks;
 using CharacterSheet.Models.CharacterClasses;
 using CharacterSheet.Models.CharacterRaces;
-//using CharacterSheet.Models.CharacterRpTraits;
 
 namespace CharacterSheet.Models
 {
     public class Character
     {
+        #region Fields
+        /// <summary>
+        /// Player Character's name.
+        /// </summary>
+        public string Name { get; }
+        /// <summary>
+        /// Player Character's current level.
+        /// </summary>
+        public int Level { get; set; }
+        /// <summary>
+        /// Player Character's race and associated stats/mechanics.
+        /// </summary>
+        public IRace Race{ get; set; }
+        /// <summary>
+        /// Player Character's class and associated stats/mechanics.
+        /// </summary>
+        public IClass Class { get; set; }
+        /// <summary>
+        /// Player Character's ability scores.
+        /// </summary>
+        public Dictionary<string, int> AbilityScores { get; set; }
+        /// <summary>
+        /// Player Character's ability score modifiers.
+        /// </summary>
+        public Dictionary<string, int> Modifiers { get; set; }
+        /// <summary>
+        /// Player Character's maximum hitpoints.
+        /// </summary>
+        public int MaxHitPoints { get; set; }
+        /// <summary>
+        /// Player Character's current hitpoints.
+        /// </summary>
+        public int CurrentHitPoints { get; set; }
+        //WIP Additional Fields
+        /*
+         * Backstory
+         * PhysicalCharacteristics/Personality
+         */
+        #endregion
+
+        #region Constructors
+        /// <summary>
+        /// Constructor for brand new Player Character.
+        /// </summary>
+        /// <param name="characterName"></param>
+        /// <param name="characterRace"></param>
+        /// <param name="characterClass"></param>
         public Character(string characterName, IRace characterRace, IClass characterClass)
         {
             Name = characterName;
@@ -36,80 +82,31 @@ namespace CharacterSheet.Models
             };
             updateMaxHitPoints(); //also works to set initial(level 1) health
             CurrentHitPoints = MaxHitPoints;
-            
         }
+
         /// <summary>
-        /// Overflow for testing with incomplete methods
+        /// Constructor for saved Player Character.
         /// </summary>
         public Character()
         {
-            //used for testing, delete when character load implemented
+            //WIP
         }
+        #endregion
 
+        #region Methods
         /// <summary>
-        /// I am Sparticus.
+        /// Simulates rolling a single die with the specified number of sides.
         /// </summary>
-        public string Name { get; }
-
-        /// <summary>
-        /// PC's race and associated gameplay stats/mechanics.
-        /// </summary>
-        public IRace Race{ get; set; }
-        //includes speed, size(both l/m/s and in feet)
-        //languages and prompt for selecting starting contained within object
-        //needs to have base stat modifiers to add to class
-        //summary of race
-
-        /// <summary>
-        /// IClass object containing PC's combat focused stats, proficiencies, and abilities as well as class specific mechanics and initial set up prompts.
-        /// </summary>
-        public IClass Class { get; set; }
-        //need to include method that acounts for level up stats/proficiencies/abilities here
-        //will contain all stats/proficiencies/equipment/abilities/spells and methods to select and set them
-        //should probably have level also
-
-        public Dictionary<string, int> AbilityScores { get; set; }
-
-        public Dictionary<string, int> Modifiers { get; set; }
-
-        public int Level { get; set; } = 1;
-
-        public int MaxHitPoints { get; set; }
-
-        public int CurrentHitPoints { get; set; }
-
-        /// <summary>
-        /// PC's physical characteristics that are purely roleplay oriented.
-        /// </summary>
-        //public Appearance Appearance { get; set; } //WIP
-
-        /// <summary>
-        /// PC's personality traits, beliefs, and worldview.
-        /// </summary>
-        //public PersonalityAndBeliefs Personality { get; set; } //WIP
-
-        /// <summary>
-        /// PC's history prior to the current adventure.
-        /// </summary>
-        //public Backstory Backstory { get; set; } //WIP
-
-        //methods
-
-        /// <summary>
-        /// Used to roll the various dice required for character creation and play. 
-        /// This method accounts for max random size needing to be one larger than needed.
-        /// E.G. Rolling a D6 would take 6 as max.
-        /// </summary>
-        /// <param name="max"></param>
+        /// <param name="dieSides"></param>
         /// <returns></returns>
-        public int rollDice(int max)
+        public int rollDx(int dieSides)
         {
             Random random = new Random();
-            return random.Next(1, max+1);
+            return random.Next(1, dieSides+1);
         }
 
         /// <summary>
-        /// Simulates rolling 4D6 and summing the top 3 to determine ability scores in the Character constructor.
+        /// Simulates rolling for ability score when creating a character. Four d6 are rolled and the three highest values are added together to determine the value of the given ability score.
         /// </summary>
         /// <returns></returns>
         public int rollAbilityScore()
@@ -140,14 +137,14 @@ namespace CharacterSheet.Models
         }
 
         /// <summary>
-        /// Used to find/assign ability score modifiers in the constructors
+        /// Determines ability score modifiers to be applied to various character actions.
         /// </summary>
         /// <param name="abilityScoreValue"></param>
         /// <returns></returns>
         public int findModifier(int abilityScoreValue)
         {
             int modifier = 0;
-            if(abilityScoreValue == 18)
+            if(abilityScoreValue >= 18)
             {
                 modifier = 4;
             }
@@ -167,7 +164,7 @@ namespace CharacterSheet.Models
         }
 
         /// <summary>
-        /// Used to update character max health on character creation and level up.
+        ///Updates Player Character maximum hitpoints when leveling up.
         /// </summary>
         public void updateMaxHitPoints()
         {
@@ -189,10 +186,14 @@ namespace CharacterSheet.Models
             //add abilities/etc. later
         }
 
+        //Method used for initial testing. Remove later.
+        /*
         public void displayStats()
         {
             Console.WriteLine($"{Name}, Level {Level} {Race.Name} {Class.Name}");
             Console.WriteLine($"Max Hit Points: {MaxHitPoints} | Current Hit Points");
         }
+        */
+        #endregion
     }
 }

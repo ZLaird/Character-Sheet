@@ -10,9 +10,9 @@ namespace CharacterSheet.Models.CharacterClasses
     {
         #region Fields
         public string Name { get; }
-        public int HitPoints { get; set; }
-        public List<string> Proficiencies { get; set; }
-        //public List< Equipment { get; set; } //need to make item class
+        public int BaseHitPoints { get; }
+        public List<string> StartingProficiencies { get; set; }
+        //public List<EquipmentItem> StartingEquipment { get; set; }
         #endregion
 
         #region Methods
